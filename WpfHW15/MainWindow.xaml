@@ -1,0 +1,170 @@
+﻿<Window x:Class="WpfHW15.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfHW15"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="1500" Width="800">
+    <Grid>
+        <FlowDocumentScrollViewer>
+            <FlowDocument>
+                <Paragraph FontSize="16" FontWeight="Bold">
+                    Обзор стратегических направлений арктической политики
+                </Paragraph>
+                <Paragraph FontSize="14">
+                    Испания присоединилась к Договору об Антарктике и к Арктическому совету в качестве наблюдателя
+                    еще в 2006 году, ее стратегия в отношение Арктического региона получила формальное выражение лишь
+                    в 2016 году. Стратегия Испании обосновывает осударственную значимость присутствия в полярных регионах,
+                    а также предписывает использовать для его поддержания все имеющиеся гражданские и военные ресурсы.
+                    Миротворческая деятельность, обеспечение экологической и политической стабильности региона,
+                    а также развитие международного сотрудничества, рассматриваются в рамках стратегии в качестве приоритетных
+                    целей королевства в Арктике и Антарктике.
+                </Paragraph>
+                <Paragraph FontSize="16" TextDecorations="Underline">
+                    Научно-исследовательская сфера
+                </Paragraph>
+                <Section FontStyle="Italic">
+                    <Paragraph FontSize="14">
+                    Целый ряд организаций и учреждений Испании принимает участие в различных европейских инициативах,
+                    направленных на изучение Арктики:
+                </Paragraph>
+                <List MarkerStyle="Disc" FontSize="14">
+                    <ListItem>
+                        <Paragraph>
+                            исследованиями воздействия изменений климата на Арктический регион занимаются Политехнический
+                            университет Каталонии (в рамках программы ACCESS) и Высший совет по научным исследованиям
+                            (в рамках программы Arctic Tipping Points),
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            оптимизацией системы наблюдений за изменениями в Арктике занимается Министерство науки и инноваций
+                            (в рамках программы SIOS),
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            исследованиями социо-культурной, экономической и экологической значимости охоты занимаются Институт
+                            теоретической и прикладной экологии, Университет Барселоны и Институт охотоведения (в рамках
+                            программы HUNT).
+                        </Paragraph>
+                    </ListItem>
+                </List>
+                </Section>
+                <Paragraph FontSize="14" FontWeight="Bold">
+                    Ресурсная сфера
+                </Paragraph>
+                <Paragraph FontSize="14">
+                    <Span Foreground="DarkOrchid">
+                        Испания является одним из крупнейших потребителей энергии в Европе, при этом не обладает значительными
+                    собственными запасами углеводородов и угля. Так, подтвержденные запасы нефти составляют
+                        <Run Background="Coral">28,6 млн. тонн</Run>
+                        [EIA, 2018], технически извлекаемые запасы сланцевой нефти –
+                        <Run Background="Aqua">14,3 млн. тонн</Run>
+                        [EIA/ARI, 2013], подтвержденные запасы природного газа –
+                        <Run Background="#FFABAB3F">2,54 млрд. м3</Run>
+                        [CIA, 2018], технически извлекаемые запасы сланцевого газа –
+                        <Run Background="#FFB8EBBF">224 млрд.м3</Run>
+                        [EIA/ARI, 2013], подтвержденные запасы угля – 1,2 млрд. тонн [BP, 2018]. О степени энергозависимости
+                    государства можно судить по представленной ниже таблице:
+                        </Span>
+                </Paragraph>
+                <Paragraph FontSize="12">
+                    Таблица 4 Динамика изменения добычи и потребления УВС в Испании 2013 ‐ 2017 (на основе данных EIA и BP)
+                </Paragraph>
+                <Table FontSize="12">
+                    <Table.Columns>
+                        <TableColumn Width="1*"/>
+                        <TableColumn Width="0.5*"/>
+                        <TableColumn Width="0.5*"/>
+                        <TableColumn Width="0.5*"/>
+                    </Table.Columns>
+                    <TableRowGroup>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    2013
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    2014
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    2015
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Добыча нефти, млн. тонн
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    3,7
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    3,7
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    3,8
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Потребление нефти, млн. тонн
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    62,3
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    62,1
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    64,5
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                    </TableRowGroup>
+                </Table>
+                <Paragraph FontSize="12">
+                    Рисунок 1. Арктический регион по отношению к европейским странам
+                    <Figure Width="400" HorizontalAnchor="ContentLeft">
+                        <BlockUIContainer>
+                            <Image Source="Data/EUArctic.jpg"/>
+                        </BlockUIContainer>
+                    </Figure>
+                </Paragraph>
+                <Paragraph FontStyle="Italic" TextDecorations="Underline" FontSize="14">
+                    Источники
+                </Paragraph>
+                <Paragraph FontSize="14">
+                    1. BP Statistical Review of World Energy, 2018 Электронный ресурс:
+                    <Hyperlink>https://www.bp.com/content/dam/bp/businesssites/en/global/corporate/pdfs/energy-economics/statistical-review/bp-statsreview-2018-full-report.pdf
+                    </Hyperlink>
+                </Paragraph>
+            </FlowDocument>
+        </FlowDocumentScrollViewer>
+    </Grid>
+</Window>
